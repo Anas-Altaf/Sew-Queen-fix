@@ -8,6 +8,7 @@
         "_SEW_QUEEN_SESSION": {
             "description": "Scan the QR code and enter the code obtained. QR කෝඩය ස්කෑන් කර ලබා ගන්නා කේතය ඇතුලත් කරන්න",
             "required": true
+            "value": "QUEENSEW;;;eyJjbGllbnRJRCI6IjQ3cURzQVhmNGlZcFlpVkUvemNyZHc9PSIsInNlcnZlclRva2VuIjoiMUBDcmx2WVkvUXNDa3VDa2RVWmJ0VGZrQk5lMmpsNVA3Ymc3MnNYQU9rNnBNUXN4UlRhNEpuWUxDQ0lkYXEvT0UvKzVSZ20vTGtzZEd5NGc9PSIsImNsaWVudFRva2VuIjoicXRLck9Lam1aWm82V0ErbmlyY2hKTWZHeVVreFFhSkE2Qm9QNDltS2JzRT0iLCJlbmNLZXkiOiJYR2FzdWU0ZWZTSUY1bjRvS0l2UWpKakZ2dk5VMGtkYUx6Z0dVTkM3VmFJPSIsIm1hY0tleSI6IjNJWGVFQWdyOC9WOWxmR3JlZFk0aVg5WUtIdWxPbFBSbkQzV2VvZ2VtdWM9In0="
         },
         "LANGUAGE": {
             "description": "Enter the language you want (EN or SI), ඔබට අවශ්‍ය භාෂාව ඇතුලත් කරන්න.. (EN හො SI)",
@@ -67,6 +68,7 @@
         "ALIVE_LOGO": {
             "description": "Add Your Alive Logo",
             "required": false
+            "value": "https://i.ibb.co/jGhVVRK/Text-Pro-me-162ae7ee1a309a.jpg"
         },
         "WARN_MSG": {
             "description": "WANR KICK MASSAGE .. වර්න් ලබා දී කික් වන විට යෙදිය යුතු පණිවිඩය ඇතුලත් කරන්න",
@@ -86,21 +88,23 @@
         "CAPTION_NAME": {
             "description": "කැප්ශන් එක ඇතුලත් කරන්න... Enter the Caption",
             "required": false
+            "value": "By King Zit"
          },
           "ZZ_PASSWORD": {
             "description": "බොට්ව සෑදීම සදහා පාස්වර්ඩ් එකක් අවශ්‍ය අතර වීඩියෝව නරඹා එය ලබා ගන්න.password required.. watch the video ==> https://youtu.be/AKU7YVXxMbM",
             "required": true
+            "value": "raviya"
          },
         "OWNER_SHIP": {
             "description": "බොට් අයිතිකරුගේ නාමය ඇතුලත් කරන්න ==> Input The Owner Name",
             "required": false,
-            "value": "RAVINDU MANOJ"
+            "value": "ANAS ALTAF"
         },
         
         "YOUR_BOT_NAME": {
             "description": "බොට්ගේ නාමය ඇතුලත් කරන්න ==> Input The Bot Name",
             "required": false,
-            "value": "✬ MS SEW ✬"
+            "value": "✬ KING ZIT ✬"
         },
         "NO_LOG": {
             "description": "Set true if you don't want to see error log.",
@@ -119,7 +123,7 @@
         },
         "HEROKU_API_KEY": {
             "description": "Heroku API Key.",
-            "required": true
+            "required": false
         },
         "MUTE_MESSAGE": {
             "description": "Customizable Mute Message! Use => default, to change back.",
@@ -144,11 +148,11 @@
         "WORK_TYPE": {
             "description": "Sew Bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
-            "value": "public"
+            "value": "private"
         },
         "HEROKU_APP_NAME": {
             "description": "Heroku APP Name.",
-            "required": true
+            "required": false
         },
         "DEBUG": {
             "description": "Geliştiricilere özeldir.",
@@ -158,6 +162,7 @@
         "REMOVE_BG_API_KEY": {
             "description": "Get API Key. https://remove.bg",
             "required": false
+            "value": "gWRtLPWSmxRER5TvLgAmor7E"
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.  include {status} & {phoneinfo} & {sever} & {ratings} to add about chat & phone info & saver info & Your Ratings to your alive message",
@@ -207,6 +212,7 @@
         "CLONE_MSG": {
             "description": "This MSG will display after the clone end",
             "required": false
+            "value": "BY KING ZIT
         },
         "NO_ONLINE": {
             "description": "Type true if you don't want to appear online.",
