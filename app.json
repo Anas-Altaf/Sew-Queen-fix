@@ -212,7 +212,7 @@
         "CLONE_MSG": {
             "description": "This MSG will display after the clone end",
             "required": false
-            "value": "BY KING ZIT
+            "value": "BY KING ZIT"
         },
         "NO_ONLINE": {
             "description": "Type true if you don't want to appear online.",
